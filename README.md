@@ -12,7 +12,7 @@ For color image processing, the algorithm uses the HSI (Hue, Saturation, Intensi
 
 # Results
 
-To observe how the homomorphic filter influences the image, it was compared with a median filter and an arithmetic mean filter.
+To observe how the homomorphic filter works, it was compared with a median filter and an arithmetic mean filter.
 <img width="640" height="624" alt="image" src="https://github.com/user-attachments/assets/07445c5b-9a90-4bb9-935c-648736440b01" />
 
 The two filters tested in these images have the function of reducing noise.
