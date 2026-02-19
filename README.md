@@ -18,7 +18,9 @@ For color image processing, the algorithm uses the HSI (Hue, Saturation, Intensi
 
 # Results
 
-To observe how the homomorphic filter works, it was compared with a median filter and an arithmetic mean filter.
+To observe how the homomorphic filter works, Gaussian noise and salt-and-pepper noise were added to the images. The homomorphic filter was compared with a median filter and an arithmetic mean filter on noisy images.
+
+# Gaussian noise
 <img width="640" height="624" alt="image" src="https://github.com/user-attachments/assets/07445c5b-9a90-4bb9-935c-648736440b01" />
 
 The two filters tested in these images have the function of reducing noise.
@@ -26,6 +28,16 @@ The two filters tested in these images have the function of reducing noise.
 <img width="707" height="335" alt="image" src="https://github.com/user-attachments/assets/31c22bd9-b5dd-4b61-88b0-3bd86fab0eb6" />
 
 <img width="665" height="280" alt="image" src="https://github.com/user-attachments/assets/a6cd5a2a-5184-4c93-9ea1-a05497675928" />
+
+# Salt and pepper noise
+
+<img width="611" height="827" alt="image" src="https://github.com/user-attachments/assets/3ff931b4-496f-4538-8261-4a5fccdc694a" />
+
+<img width="658" height="233" alt="image" src="https://github.com/user-attachments/assets/ecaac2aa-94d9-4087-a3b5-040991617c25" />
+
+
+
+
 
 In conclusion, the arithmetic mean, median, and homomorphic filters using an arithmetic mean kernel have the ability to reduce image noise, while the adjusted high-pass kernel improves image quality by removing shadows and enhancing the overall contrast of the image.
 
