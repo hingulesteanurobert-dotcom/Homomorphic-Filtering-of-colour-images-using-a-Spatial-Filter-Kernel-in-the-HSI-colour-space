@@ -10,7 +10,7 @@ The use of a 3×3 filter provides a balance between contrast enhancement and pre
 
 For color image processing, the algorithm uses the HSI (Hue, Saturation, Intensity) color space. Converting from the RGB color space to HSI allows the separation of intensity information from chromatic information. Therefore, the filtering is applied exclusively to the intensity channel (I), while the hue (H) and saturation (S) components remain unchanged. This prevents color distortions that may occur if filtering is performed directly on the RGB channels.
 
-#Setup for homomorphic spatial filtering of colour images in HSI colour space
+# Setup for homomorphic spatial filtering of colour images in HSI colour space
 
 
 <img width="648" height="91" alt="image" src="https://github.com/user-attachments/assets/b2d6be2f-94c2-4fcb-a956-c02208522aca" />
